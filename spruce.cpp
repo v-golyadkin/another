@@ -121,7 +121,7 @@ int main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(WinWid, WinHei);
     glutInitWindowPosition(400, 150);
-    glutCreateWindow("TRUCK");
+    glutCreateWindow("SPRUCE");
     init();
     glutDisplayFunc(draw);
     glutSpecialFunc(key);
